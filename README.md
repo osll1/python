@@ -42,11 +42,4 @@ This project implements a file management system using a client-server architect
 
 - Ensure proper network connectivity and server availability.
 
-## License
-
-- This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-- For support or inquiries, please email [your-email@example.com](mailto:your-email@example.com).
 
