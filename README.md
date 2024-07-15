@@ -38,8 +38,29 @@ This project implements a file management system using a client-server architect
 - `tree`: Displays the directory structure.
 - `upload <filename>`: Uploads a file to the server.
 
+### Example Inputs
+
+#### Valid Input
+
+1. **Listing Files**:
+   - **Input**: `ls`
+   - **Expected Output**: Lists files and directories in the current directory.
+
+2. **Creating a Directory**:
+   - **Input**: `mkdir newFolder`
+   - **Expected Output**: Confirmation message that `newFolder` has been created.
+
+#### Invalid Input
+
+1. **Unknown Command**:
+   - **Input**: `move file.txt`
+   - **Expected Output**: Error message "Unknown command".
+
+2. **Deleting Non-existent File**:
+   - **Input**: `del nonExistentFile.txt`
+   - **Expected Output**: Error message or notification that the file does not exist.
+
 ## Troubleshooting
 
 - Ensure proper network connectivity and server availability.
-
 
